@@ -2,8 +2,7 @@ Library(tidyverse)
 Library(VIM)
 Library(naniar)
 File.choose()
-Hospital=read.csv(“C:\\Users\\edgar\\OneDrive\\Escritorio\\Custionario\\LOPEZ
-                   JAIMESEDGARFELIPE\\hospital.csv”)
+Hospital=read.csv(“C:/Users/DANIELAGUADALUPEAGUI/OneDrive - TECNOLOGICO DE ESTUDIOS SUPERIORES DE IXTAPALUCA/Documentos/TESI/OCTAVO SEMESTRE/ANALISIS Y MODELADO DE DATOS/equipo/hospital.csv”)
 View(hospital)
 # Verificar cuántos valores faltantes hay en todo el dataset
 Sum(is.na(hospital)) # Total de valores faltantes en el dataset
