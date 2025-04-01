@@ -1,5 +1,5 @@
 
-data <- read.csv("data.csv")
+data <- read.csv("C:/Users/DANIELAGUADALUPEAGUI/OneDrive - TECNOLOGICO DE ESTUDIOS SUPERIORES DE IXTAPALUCA/Documentos/TESI/OCTAVO SEMESTRE/ANALISIS Y MODELADO DE DATOS/equipo/data.csv")
 # Identificar valores faltantes
 print(summary(data)) # Muestra un resumen de las columnas, incluyendo cuántos NA hay en cada una
 print(is.na(data))  # Devuelve una matriz booleana indicando dónde están los NA
